@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">百变脸相机</string>
+    <string name="capture_permission_title">需要相机权限</string>
+    <string name="capture_permission_body">开启前置相机后，可实时预览并拍摄百变脸滤镜效果。</string>
+    <string name="capture_permission_button">开启相机权限</string>
+    <string name="capture_button">拍照</string>
+    <string name="share_button">分享</string>
+    <string name="save_success">已保存到相册</string>
+    <string name="save_failed">保存照片失败</string>
+    <string name="share_photo">分享照片</string>
+    <string name="filter_label">滤镜模式</string>
+    <string name="camera_unavailable">相机暂时不可用</string>
+    <string name="no_face_detected">请将脸移入取景框</string>
+    <string name="permission_denied">相机权限被拒绝</string>
+    <string name="badge_live">实时</string>
+    <string name="badge_front">前置</string>
+    <string name="badge_camera">相机</string>
+    <string name="square_grid_label">方格密度</string>
+    <string name="filter_state_active">当前</string>
+    <string name="filter_state_inactive">滤镜</string>
+    <string name="active_filter_label">当前效果：</string>
+</resources>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">百变脸相机 Logo 方案四</title>
+  <desc id="desc">一个偏潮流流体感的可爱变脸图标，融合泡泡和尖角图形。</desc>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF7F0"/>
+      <stop offset="100%" stop-color="#FFD4E2"/>
+    </linearGradient>
+    <linearGradient id="face4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#FFF0F6"/>
+    </linearGradient>
+    <filter id="shadow4" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#8D4960" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="464" height="464" rx="136" fill="url(#bg4)"/>
+  <circle cx="395" cy="108" r="50" fill="#7FE7FF" opacity=".22"/>
+  <circle cx="126" cy="398" r="70" fill="#FF8DB4" opacity=".16"/>
+
+  <g filter="url(#shadow4)">
+    <path d="M144 171c0-41 33-74 74-74h77c41 0 74 33 74 74v30c26 19 42 49 42 83 0 68-51 122-118 122h-76c-67 0-118-53-118-122 0-33 16-63 45-82v-31z" fill="#FF9DB3"/>
+    <path d="M114 278c0-76 61-137 137-137h12c76 0 137 61 137 137v12c0 65-52 117-117 117h-52c-65 0-117-52-117-117v-12z" fill="url(#face4)"/>
+    <circle cx="205" cy="248" r="30" fill="#111826"/>
+    <circle cx="307" cy="248" r="30" fill="#111826"/>
+    <circle cx="195" cy="238" r="7" fill="#FFFFFF"/>
+    <circle cx="297" cy="238" r="7" fill="#FFFFFF"/>
+    <path d="M214 319c27 18 58 18 85 0" fill="none" stroke="#111826" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="160" cy="285" r="19" fill="#FF8FB6" opacity=".34"/>
+    <circle cx="352" cy="285" r="19" fill="#FF8FB6" opacity=".34"/>
+  </g>
+
+  <g transform="translate(119 119) rotate(-25)">
+    <rect x="0" y="0" width="70" height="70" rx="22" fill="#FFAF81"/>
+    <path d="M18 0v70M35 0v70M52 0v70M0 18h70M0 35h70M0 52h70" stroke="#FFF7EF" stroke-width="5" opacity=".88"/>
+  </g>
+  <g transform="translate(353 140) rotate(12)">
+    <path d="M29 0l29 50-29 50-29-50z" fill="#91DFFF" opacity=".88"/>
+  </g>
+  <g transform="translate(360 333)">
+    <circle cx="0" cy="0" r="28" fill="#FFFFFF" opacity=".42"/>
+    <circle cx="30" cy="-22" r="15" fill="#8FFFE0" opacity=".75"/>
+  </g>
+</svg>
